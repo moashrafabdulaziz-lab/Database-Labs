@@ -19,12 +19,6 @@ A SQL Server database design and implementation labs.
 - ERD
 - Database Design
 
-## Database
-
-The `Database` folder contains a SQL Server `.bak` backup file.
-
-The backup can be restored using SQL Server Management Studio.
-
 ## Queries
 
 The `Queries` folder contains the SQL queries used in this project.
