@@ -93,8 +93,7 @@ AUTHOR_ID INT REFERENCES AUTHOR(AUTHOR_ID),
 PRIMARY KEY (BOOK_ID,AUTHOR_ID)
 )
 ---------------------------------------------------------- 
----------------------------------------------------------- INSERT DATA (DML) + THIS DATA FROM 'AI' FOR TIME-SAVING 😅.... SORRY 😐
----------------------------------------------------------- اختصارا للوقت يابشمهندس ليس اكثر والله
+---------------------------------------------------------- INSERT DATA (DML)
 
 
 INSERT INTO EMPLOYEE (F_NAME,L_NAME,PHONE,EMAIL,BONUS,SALARY,[ADDRESS],DATE_OF_BIRTH,SUPER_ID)
@@ -643,7 +642,6 @@ END
 -------------------------------------------------------------------
 
 --Q32
--- مش عارف الي انا عامله هو الي مطلوب ولا لا بس دة الي فهمته ان حضرتك عايزني افحص العلاقات وهكذا
 
 DELETE FROM EMPLOYEE  --Try to delete a parent row that still has children linked to it
 WHERE EMP_ID = 1
@@ -666,8 +664,3 @@ VALUES ('x@gmail.com', 'Test', NULL)  --Try to insert a child row with NULL in t
 --This will succeed because FK allows NULL, meaning no employee is linked yet
 
 -------------------------------------------------------------------
-
---Q33
---انا مش فاهم ايه الي مطلوب ومش عارف انفذه اصلا حتي لما حاولت افهم من ال
--- AI
---مش فاهم حاجة منه برضو عشان اكتب
